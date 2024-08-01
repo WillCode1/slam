@@ -1,0 +1,24 @@
+[submodule "backend_optimization"]
+	path = backend_optimization
+	url = git@github.com:WillCode1/backend_optimization.git
+	branch = master
+[submodule "fast_lio"]
+	path = fast_lio
+	url = git@github.com:WillCode1/FAST_LIO.git
+	branch = dev
+[submodule "point_lio"]
+	path = point_lio
+	url = git@github.com:WillCode1/Point-LIO.git
+	branch = ivox_dev
+[submodule "fast_lio_sam"]
+	path = fast_lio_sam
+	url = git@github.com:WillCode1/fast_lio_sam.git
+	branch = master
+[submodule "fastlio_localization"]
+	path = fastlio_localization
+	url = git@github.com:WillCode1/fastlio_localization.git
+	branch = master
+[submodule "robot_pose_ekf"]
+	path = robot_pose_ekf
+	url = git@github.com:WillCode1/robot_pose_ekf.git
+	branch = master

@@ -1,0 +1,7 @@
+string action   # mapping finish cancel stitch
+string map_name
+
+string map1_name
+string map2_name
+---
+string result
