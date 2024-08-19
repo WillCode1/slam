@@ -51,6 +51,7 @@ else(ROS_EDITION STREQUAL "ROS2")
   rosidl_generate_interfaces(${PROJECT_NAME}
     "srv/SlamMode.srv"
     "msg/VehiclePose.msg"
+    "msg/InsPvax.msg"
     DEPENDENCIES builtin_interfaces std_msgs
   )
   ament_package()
