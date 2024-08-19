@@ -3,8 +3,8 @@ std_msgs/Header header
 uint32 ins_status           # INS初始化状态,所有比特位都为1成功
 uint32 wheel_speed_status   # 轮速状态，表示有无轮速
 # ====================
-uint32 position_type        # 定位类型，固定解满足厘米级
-uint32 heading_type         # 航向类型，固定解满足厘米级
+uint32 position_status      # 定位类型，固定解满足厘米级
+uint32 heading_status       # 航向类型，固定解满足厘米级
 
 uint32 numsv                # 卫星数，20~30满足高精度
 float64 hdop                # 水平分量精度因子，为纬度和经度误差平方和的开根号值
