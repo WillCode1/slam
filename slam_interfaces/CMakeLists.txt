@@ -16,6 +16,7 @@ if(ROS_EDITION STREQUAL "ROS1")
     DIRECTORY msg
     FILES
     VehiclePose.msg
+    InsPvax.msg
   )
 
   add_service_files(
