@@ -7,7 +7,7 @@ uint32 position_status      # 定位类型，固定解满足厘米级
 uint32 heading_status       # 航向类型，固定解满足厘米级
 
 uint32 numsv                # 卫星数，20~30满足高精度
-float64 hdop                # 水平分量精度因子，为纬度和经度误差平方和的开根号值
+float64 hdop                # 水平分量精度因子，越大越差
 float64 rtk_age             # ‌RTK差分龄期，基站数据和移动站数据之间存在时间差
 
 float64 sec_of_week         # 周内秒
