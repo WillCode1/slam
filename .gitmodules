@@ -22,3 +22,7 @@
 	path = robot_pose_ekf
 	url = git@github.com:WillCode1/robot_pose_ekf.git
 	branch = master
+[submodule "thirdparty/3d_bbs"]
+	path = thirdparty/3d_bbs
+	url = git@github.com:WillCode1/3d_bbs.git
+	branch = dev
