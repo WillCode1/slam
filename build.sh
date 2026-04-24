@@ -53,6 +53,7 @@ elif [ ${ROS_VERSION} = ${VERSION_ROS2} ]; then
     touch robot_pose_ekf/CATKIN_IGNORE
     cp -f slam_interfaces/package_ROS2.xml slam_interfaces/package.xml
     cp -f slam_service/package_ROS2.xml slam_service/package.xml
+    touch thirdparty/CATKIN_IGNORE
     # rm -rf launch/
     # cp -rf launch_ROS2/ launch/
 fi
