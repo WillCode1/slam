@@ -36,19 +36,13 @@ fi
 
 # substitute the files/folders: CMakeList.txt, package.xml(s)
 if [ ${ROS_VERSION} = ${VERSION_ROS1} ]; then
-    rm fast_lio/CATKIN_IGNORE
-    rm point_lio/CATKIN_IGNORE
     cp -f fast_lio_sam/package_ROS1.xml fast_lio_sam/package.xml
-    cp -f backend_optimization/package_ROS1.xml backend_optimization/package.xml
     cp -f fastlio_localization/package_ROS1.xml fastlio_localization/package.xml
     rm robot_pose_ekf/CATKIN_IGNORE
     cp -f slam_interfaces/package_ROS1.xml slam_interfaces/package.xml
     cp -f slam_service/package_ROS1.xml slam_service/package.xml
 elif [ ${ROS_VERSION} = ${VERSION_ROS2} ]; then
-    touch fast_lio/CATKIN_IGNORE
-    touch point_lio/CATKIN_IGNORE
     cp -f fast_lio_sam/package_ROS2.xml fast_lio_sam/package.xml
-    cp -f backend_optimization/package_ROS2.xml backend_optimization/package.xml
     cp -f fastlio_localization/package_ROS2.xml fastlio_localization/package.xml
     touch robot_pose_ekf/CATKIN_IGNORE
     cp -f slam_interfaces/package_ROS2.xml slam_interfaces/package.xml
